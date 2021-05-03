@@ -1,0 +1,29 @@
+.red-dot {
+  display: flex;
+  background-color: #de604d;
+  width: 5px;
+  height: 5px;
+  border-radius: 15px;
+  position: absolute;
+}
+
+.nav__red-dot {
+  left: 30px;
+  bottom: 30px;
+}
+.find__red-dot,
+.more__red-dot {
+  right: -5px;
+  top: -8px;
+}
+.red-circle-exclamation-mark {
+  display: inline-flex;
+  justify-content: center;
+  width: 12px;
+  height: 12px;
+  border: 1.5px solid #de604d;
+  color: #de604d;
+  font-size: 11px;
+  border-radius: 50%;
+  margin-left: 8px;
+}
